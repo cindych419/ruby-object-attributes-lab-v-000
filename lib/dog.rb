@@ -4,7 +4,7 @@ class Dog
     @name = name
   end
   def name
-    binding.pry
+    #binding.pry
     @name
   end
   def name=(new_name)
@@ -13,10 +13,14 @@ class Dog
     def indentify(breed)
       @bread = breed
     end
-    def breed
-      @breed
-    end
-    def breed=(new_breed)
-      @breed = new_breed
-    end
+
+  def breed
+    @breed
   end
+
+  def breed=(new_breed)
+    @breed = new_breed
+  end
+end
+
+a = Dog.new
