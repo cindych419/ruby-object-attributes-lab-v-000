@@ -1,3 +1,4 @@
+require 'pry'
 class Dog
   def teaching(name)
     binding.pry
