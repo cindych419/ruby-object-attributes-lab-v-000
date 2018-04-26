@@ -1,10 +1,10 @@
 require 'pry'
 class Dog
   def teaching(name)
-    binding.pry
     @name = name
   end
   def name
+    binding.pry
     @name
   end
   def name=(new_name)
