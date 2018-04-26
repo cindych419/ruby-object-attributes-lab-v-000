@@ -1,5 +1,6 @@
 class Dog
   def teaching(name)
+    binding.pry
     @name = name
   end
   def name
