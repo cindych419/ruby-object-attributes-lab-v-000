@@ -24,3 +24,4 @@ class Dog
 end
 
 a = Dog.new
+binding.pry
