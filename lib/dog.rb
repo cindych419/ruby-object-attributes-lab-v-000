@@ -24,4 +24,7 @@ class Dog
 end
 
 a = Dog.new
+a.name = "Frank"
+a.breed = "Mutt"
+
 binding.pry
