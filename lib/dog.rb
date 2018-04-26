@@ -27,7 +27,7 @@ class Dog
   end
 end
 
-a = Dog.new("Fido")
+a = Dog.new("Fido", "shepard")
 a.name = "Frank"
 a.breed = "Mutt"
 
